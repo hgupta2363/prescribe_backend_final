@@ -287,7 +287,7 @@ if(generatedSignature==req.body.razorpay_signature)
   {
     data.status="failed"
   }
-  res.redirect("http://localhost:3000/PaymentConfirmation")
+  res.redirect("https://finalpre.herokuapp.com/PaymentConfirmation")
 })
 app.post('/patientDetail',(req,res,next)=>{
     console.log(req.body )
