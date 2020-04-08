@@ -10,7 +10,7 @@ const request=require("request")
 port=process.env.PORT || 5000;
 var firebase = require("firebase");
 require('dotenv').config();
-var axios=require('axios')
+
 const fetch=require('fetch').fetchUrl
 var jwt = require('jsonwebtoken');
 
